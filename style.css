@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background: rgb(231, 231, 231);
+}
+.wrpper{
+    width: 600px;
+    background: #fff;
+    padding: 24px;
+    margin: 50px auto 0;
+    border-top:5px solid orange;
+    box-shadow:10px 10px 16px  rgb(146, 146, 146);
+}
+.wrpper h1{
+ font-size: 25px;
+ line-height: 24px;
+ padding-bottom: 47px;
+ text-align: center;
+ padding-top: 30px;
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto ;
+   
+}
+.name{
+    width: 47%;
+    font-size: 18px;
+    padding: 8px 0px 8px 40px;
+    display:inline-block;
+    position: relative;
+    text-transform: capitalize;
+}
+.lock{
+    padding: 8px 11px;
+}
+.input-name span{
+    margin-left: 20px; 
+}
+.text-name{
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0px 8px 40px;
+}
+.input-name i{
+    position: absolute;
+    font-size: 18px;
+    border-right:1px solid rgb(189, 165, 165) ;
+
+}
+.email{
+    padding: 8px;
+}
+.country{
+    width: 49%;
+    font-size: 20px;
+    padding: 8px 0px 8px 40px;
+    margin-left: 27px;
+    margin-bottom: 44px;
+}
+
+button{
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 0px 8px 40px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 2px;
+    border-style: none;
+    transition: 0.4s;
+   
+}    
+button:hover{
+    background: red;
+}
